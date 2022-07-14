@@ -1,0 +1,159 @@
+#images{
+  /* border: 2px solid blue; */
+  display: flex;
+  /* grid-template-columns: 1fr; */
+  position: relative;
+}
+
+.home-nick{
+  position: absolute;
+  height: 80%;
+}
+
+
+/* this blur is inside nicks image with computer */
+.home_blur{
+  position: absolute;
+  right: 10px;
+  bottom: 300px;
+}
+
+
+/* this blur is inside home section */
+.home_blur_3{
+  position: absolute;
+  top: 150px;
+  left: 0px;
+}
+
+.home_blur_2{
+  position: absolute;
+  top: 150px;
+  right: 250px;
+}
+
+.float_imgs_top{
+  position: absolute;
+  transform: rotate(-30deg);
+  width: 3rem;
+  height: 8rem;
+  right: 180px;
+}
+
+.float_imgs_top img{
+  width: auto;
+  height: auto;
+}
+
+.float_imgs_mid{
+  position: absolute;
+  right: 80px;
+  top: 200px;
+}
+
+.float_imgs_bottom{
+  position: absolute;
+  transform: rotate(-30deg);
+  width: 3rem;
+  height: 8rem;
+  left: 30px;
+  bottom:85px;
+}
+
+.float_imgs_bottom img{
+  width: auto;
+  height: auto;
+}
+
+.umbrella{
+  transform: rotate(30deg);
+}
+
+.register {
+  width: 215px;
+  height: 68px;
+  border-radius: 28px;
+  background: #2883d7;
+  box-shadow: 1px 3px 10px 1px rgba(40, 131, 215, 0.4);
+  border: none;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 45px;
+  color: #ffffff;
+}
+
+.blackPart {
+  color: black;
+}
+
+.dates {
+  font-family: "Fira Code";
+  font-style: bold;
+  font-weight: 400;
+  font-size: 28px;
+  color: #000000;
+  padding: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.prin {
+  width: 240px;
+  transform: rotate(-126.32deg);
+  z-index: -1;
+  position: relative;
+  right: 140px;
+}
+
+.home-section {
+  margin-top: 90px;
+}
+
+.quote {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 85px;
+  line-height: 80px;
+  color: #2883d7;
+}
+
+@media (max-width: 766px) {
+  .home-nick {
+    position: relative;
+    bottom: 90px;
+  }
+}
+
+@media (min-width: 575px) and (max-width: 766px) {
+  .prin {
+    position: relative;
+    bottom: 150px;
+    left: 70px;
+  }
+}
+
+@media (min-width: 540px) and (max-width: 575px) {
+  .prin {
+    position: relative;
+    top: 0;
+  }
+}
+
+@media (max-width: 541px) {
+  .prin {
+    position: relative;
+    bottom: 150px;
+    left: 70px;
+  }
+  .quote {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 80px;
+    color: #2883d7;
+  }
+}
